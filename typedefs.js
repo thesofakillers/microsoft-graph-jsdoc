@@ -1,5 +1,5 @@
 /**
- * @typedef {Object} plannerTask INCOMPLETE!
+ * @typedef {Object}
  * @property {number} activeChecklistItemCount Number of checklist items with value set to false, representing incomplete items.
  * @property {plannerAppliedCategories} appliedCategories	The categories to which the task has been applied. See applied Categories for possible values.
  * @property {String} assigneePriority Hint used to order items of this type in a list view. The format is defined as outlined here.
