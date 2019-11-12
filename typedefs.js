@@ -50,3 +50,22 @@
  * @property {String} displayName The identity's display name. Note that this may not always be available or up to date. For example, if a user changes their display name, the API may show the new value in a future response, but the items associated with the user won't show up as having changed when using [delta](https://docs.microsoft.com/en-us/graph/api/driveitem-delta?view=graph-rest-1.0&tabs=http).
  * @property {String} id Unique identifier for the identity.
  */
+
+/**
+ * @typedef {Object} plannerTaskDetails
+ * @property {plannerChecklistItems} checklist The collection of checklist items on the task.
+ * @property {String} description Description of the task.
+ * @property {String} id Read-only. ID of the task details. It is 28 characters long and case-sensitive. Format validation is done on the service.
+ * @property {String} previewType This sets the type of preview that shows up on the task. The possible values are: automatic, noPreview, checklist, description, reference. When set to automatic the displayed preview is chosen by the app viewing the task.
+ * @property {plannerExternalReferences} references
+ */
+
+/**
+ * @typedef {Object} plannerChecklistItems
+ * see https://docs.microsoft.com/en-us/graph/api/resources/plannerchecklistitems?view=graph-rest-1.0
+ */
+
+/**
+ * @typedef {Object} plannerExternalReferences
+ * see https://docs.microsoft.com/en-us/graph/api/resources/plannerexternalreferences?view=graph-rest-1.0
+ */
