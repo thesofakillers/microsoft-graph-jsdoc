@@ -69,3 +69,11 @@
  * @typedef {Object} plannerExternalReferences
  * see https://docs.microsoft.com/en-us/graph/api/resources/plannerexternalreferences?view=graph-rest-1.0
  */
+
+/**
+ * @typedef {Object} plannerBucket
+ * @property {String} id Read-only. ID of the bucket. It is 28 characters long and case-sensitive. Format validation is done on the service.
+ * @property {String} name Name of the bucket.
+ * @property {String} orderHint Hint used to order items of this type in a list view. The format is defined as outlined here.
+ * @property {String} planId Plan ID to which the bucket belongs.
+ */
