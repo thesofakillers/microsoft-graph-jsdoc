@@ -77,3 +77,12 @@
  * @property {String} orderHint Hint used to order items of this type in a list view. The format is defined as outlined here.
  * @property {String} planId Plan ID to which the bucket belongs.
  */
+
+/**
+ * @typedef {Object} plannerPlan
+ * @property {String} createdDateTime Read-only. Date and time at which the plan is created. The Timestamp type represents date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 would look like this: '2014-01-01T00:00:00Z'
+ * @property {String} id Read-only. ID of the plan. It is 28 characters long and case-sensitive. Format validation is done on the service.
+ * @property {String} owner ID of the Group that owns the plan. A valid group must exist before this field can be set. After it is set, this property can’t be updated.
+ * @property {String} title Required. Title of the plan.
+ * @property {IdentitySet} createdBy Read-only. The user who created the plan.
+ */
