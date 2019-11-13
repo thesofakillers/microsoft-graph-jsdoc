@@ -60,11 +60,11 @@
 
 /**
  * @typedef {Object} plannerTaskDetails
- * @property {plannerChecklistItems} checklist The collection of checklist items on the task.
- * @property {String} description Description of the task.
- * @property {String} id Read-only. ID of the task details. It is 28 characters long and case-sensitive. Format validation is done on the service.
- * @property {String} previewType This sets the type of preview that shows up on the task. The possible values are: automatic, noPreview, checklist, description, reference. When set to automatic the displayed preview is chosen by the app viewing the task.
- * @property {plannerExternalReferences} references
+ * @property {plannerChecklistItems} [checklist] The collection of checklist items on the task.
+ * @property {String} [description] Description of the task.
+ * @property {String} [id] Read-only. ID of the task details. It is 28 characters long and case-sensitive. Format validation is done on the service.
+ * @property {String} [previewType] This sets the type of preview that shows up on the task. The possible values are: automatic, noPreview, checklist, description, reference. When set to automatic the displayed preview is chosen by the app viewing the task.
+ * @property {plannerExternalReferences} [references] The collection of references on the task.
  */
 
 /**
