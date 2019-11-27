@@ -1,9 +1,9 @@
-# JSDocs for Microsoft Graph
-
 > **Note: Repo Archival**
   This repository is now archived and will probably soon be deprecated. It should pretty much be ignored. This is because it turns out that official JSDoc typedefs for MS Graph exist (see: this [repo](https://github.com/microsoftgraph/msgraph-typescript-typings)), I just hadn't been able to find them. 
 >  
 > Special shout-out to [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) for providing a directory of most types.
+
+# JSDocs for Microsoft Graph
 
 Since I could not find pre-written [JSDoc](https://devdocs.io/jsdoc/) [typedefs](https://jsdoc.app/tags-typedef.html) for resources defined in Microsoft's [Graph API](https://docs.microsoft.com/en-us/graph/), I decided to write them myself. 
 
